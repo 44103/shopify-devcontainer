@@ -1,0 +1,12 @@
+version: "3"
+services:
+  shopify:
+    build: .
+    working_dir: /workdir
+    command: sleep infinity
+    volumes:
+      - "../:/workdir"
+      - "./.config:/root/.config"
+    ports:
+      - 3456:3456
+      - 8081:8081

@@ -1,0 +1,30 @@
+{
+  "name": "Shopify",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "shopify",
+  "workspaceFolder": "/workdir",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "zsh"
+      },
+      "extensions": [
+        "sleistner.vscode-fileutils",
+        "ms-vscode.makefile-tools",
+        "fabiospampinato.vscode-todo-plus",
+        "shardulm94.trailing-spaces",
+        "patbenatar.advanced-new-file",
+        "mhutchie.git-graph",
+        "esbenp.prettier-vscode",
+        "christian-kohler.path-intellisense",
+        "csstools.postcss",
+        "dsznajder.es7-react-js-snippets",
+        "bradlc.vscode-tailwindcss",
+        "Shopify.theme-check-vscode",
+        "killalau.vscode-liquid-snippets"
+      ]
+    }
+  }
+}
